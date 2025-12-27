@@ -1,0 +1,449 @@
+﻿body {
+    font-family: "Microsoft YaHei" !important;
+}
+
+.ie9 {
+    display: none;
+}
+
+/* ----------------------澶撮儴鏍峰紡----------------------- */
+.header-top {
+    background-color: #f2f2f2;
+    padding: 6px 0;
+    font-size: 14px;
+    height: 32px;
+}
+
+    .header-top .con-left, .header-top .con-right {
+        height: 30px;
+        line-height: 1;
+    }
+
+        .header-top .con-right .line {
+            display: inline-block;
+            width: 1px;
+            height: 10px;
+            background-color: #999;
+            margin: 0 16px;
+        }
+
+        .header-top .con-right .login-btn {
+            margin-right: 16px;
+        }
+
+.header-bottom {
+    border-bottom: 2px solid #d05353;
+}
+
+.header-search {
+    height: 130px;
+}
+
+    .header-search .logo {
+        height: 120px;
+        margin-right: 200px;
+    }
+
+        .header-search .logo .logo-img {
+            width: 170px;
+            height: 60px;
+        }
+
+.cursorpinter {
+    cursor: pointer;
+}
+
+.search .input-group {
+    border: 1px solid #d05353;
+}
+
+    .search .input-group input {
+        width: 350px;
+        height: 40px;
+        border: none;
+        font-size: 14px;
+        text-indent: 10px;
+    }
+
+    .search .input-group .tt {
+        border: none;
+        background-color: #d05353;
+        color: #fff;
+        width: 90px;
+        height: 40px;
+        text-align: center; 
+        padding: 0;
+    }
+
+.search .search-keywords {
+    padding: 10px 0;
+}
+
+    .search .search-keywords div {
+        color: #999;
+        padding: 0 6px;
+        border-right: 1px solid #999;
+        line-height: 1;
+        font-size: 14px;
+    }
+
+.phone-search span {
+    font-size: 14px;
+}
+
+.phone-search p {
+    padding-left: 20px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.phone-search i {
+    font-size: 22px;
+    color:#ff2222;
+    font-weight: bolder;
+}
+
+.phone-search .phone-search-text {
+    /* border-right: 1px solid #999; */
+    padding-right: 20px;
+}
+/* --------------------------------澶撮儴瀵艰埅鏍峰紡-------------------------- */
+.nav-all .nav-title {
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.nav-all .nav-classify {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    background-color: #d05353;
+    color: #fff;
+    margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+    .nav-all .nav-classify .navList {
+        height: 456px;
+        width: 240px;
+        background-color: #fff;
+        position: absolute;
+        top: 42px;
+        left: 0;
+        z-index: 9;
+        border-bottom: 4px solid #d05353;
+    }
+
+        .nav-all .nav-classify .navList .navList-content {
+            padding: 0 20px;
+            height: 100%;
+            /* overflow: auto; */
+        }
+
+            .nav-all .nav-classify .navList .navList-content .navList-item {
+                padding: 20px 0;
+                border-bottom: 1px solid #ccc;
+            }
+
+.navList .navList-content .navList-item a {
+    line-height: 1.6;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.navList .navList-content .navList-item p {
+    line-height: 1;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav-all .nav-classify .navList .navList-content .navList-item:last-child {
+    border-bottom: none;
+}
+
+.a-code {
+    position: relative;
+}
+
+    .a-code .code-div {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        width: 120px;
+        height: 120px;
+        left: 120px;
+        color: #595656;
+        background-color: #fff;
+        box-shadow: 0 0 2px rgba(0,0,0,.2);
+        transition: all .6s;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .a-code .phone-code {
+        left: 100px;
+    }
+
+    .a-code:hover .code-div {
+        visibility: visible;
+        transform: translateX(-35px) !important;
+        opacity: 1;
+    }
+
+    .a-code .code-div img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .a-code .code-div .icon_arrow_right_white {
+        position: absolute;
+        top: 4px;
+        left: -4px;
+        overflow: hidden;
+        width: 6px;
+        height: 9px;
+        transform: rotate(50deg);
+        background: url(https://img02.hua.com/pc/assets/img/mbar/ibar_sprites.png);
+        background-position: 0 -302px;
+    }
+
+
+/* ----------------------------搴曢儴鏍峰紡------------------------------ */
+.footer {
+    margin-top: 10px;
+}
+
+.footer-top {
+    background: #fff;
+}
+
+.footer-top-all {
+    height: 210px;
+}
+
+    .footer-top-all .logo-img {
+        width: 180px;
+        height: 75px;
+        margin-right: 40px;
+    }
+
+.nav-module {
+    height: 210px;
+}
+
+.footer-top-all .footer-module {
+    padding: 0 60px 0 40px;
+    border-right: 1px solid #ccc;
+}
+
+.footer-top-all .footer-module1 {
+    width: 170px;
+}
+
+.footer-top-all .footer-module .footer-nav-item {
+    margin-right: 20px;
+    font-size: 14px;
+    color: #999;
+    line-height: 1.8;
+}
+
+.footer-nav-item:hover {
+    text-decoration: underline;
+    color: #9F755A !important;
+}
+
+.footer-top-all .footer-module .footer-nav {
+    margin-top: 10px;
+}
+
+.footer-top-all .footer-module:last-child {
+    border: none;
+}
+
+.erweima .erweima-img {
+    width: 110px;
+    height: 110px;
+    border: 1px solid #d05353;
+}
+
+.erweima p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-bottom {
+    background-color: #f5f5f5;
+    padding: 25px 0;
+}
+
+    .footer-bottom p {
+        font-size: 14px;
+        text-align: center;
+        line-height: 2;
+    }
+
+/* ----------------------闈㈠寘灞戝鑸牱寮�--------------------- */
+.bread-nav {
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+    .bread-nav p {
+        margin-right: 5px;
+    }
+
+    .bread-nav a {
+        margin-right: 5px;
+    }
+
+input::-webkit-input-placeholder { /* WebKit browsers*/
+    color: #aaa;
+    font-size: 14px;
+}
+
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18*/
+    color: #aaa;
+    font-size: 14px;
+}
+
+input::-moz-placeholder { /* Mozilla Firefox 19+*/
+    color: #aaa;
+    font-size: 14px;
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10+*/
+    color: #aaa;
+    font-size: 14px;
+}
+
+.rebborderbottom {
+    /* border-bottom: 2px solid 
+        
+        ; */
+    color: #d05353;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+/* 鍏叡閮ㄥ垎 */
+.margin-top-small {
+    margin-top: 10px;
+}
+
+.margin-top-base {
+    margin-top: 20px;
+}
+
+.margin-top-large {
+    margin-top: 30px;
+}
+
+.margin-bottom-small {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-base {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-large {
+    margin-bottom: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-light {
+    color: #999;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+.btn-danger {
+    width: 115px;
+    padding: 5px 0;
+    background-color: #ff2222;
+    color: #fff;
+    border-radius: 1px;
+}
+
+/* --------------------------------鍙充晶瀵艰埅鏍峰紡-------------------------- */
+
+.r-nav {
+    position: fixed;
+    z-index: 9;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+.wrap {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    width: 34px;
+    height: 100%;
+    background-color: #595656;
+}
+
+.phone {
+    position: absolute;
+    top: 33%;
+    padding: 3px 6px;
+    background: #fff;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0 0 3px #666;
+    right: 50px;
+    width: 110px;
+    display: none;
+}
+
+
+/* --------------------------------53瀹㈡湇-------------------------- */
+
+#icon_menu_module {
+    width: 34px !important;
+}
+
+.sortmodule {
+    height: auto !important;
+    margin-bottom: 10px;
+}
+
+    .sortmodule .iconby53-Customerservice,
+    .sortmodule .iconby53-QR,
+    .sortmodule .iconby53-GoTop {
+        width: 30px !important;
+        height: 30px !important;
+        line-height: 30px !important;
+        font-size: 30px !important;
+    }
+
+    .sortmodule .iconby53-iPhone {
+        margin-left: -2px;
+    }
+
+    .sortmodule .iconby53-GoTop {
+        margin-left: -3px;
+    }
+
+    .sortmodule p {
+        display: none;
+    }
+
+    .sortmodule .border_line {
+        display: none !important;
+    }

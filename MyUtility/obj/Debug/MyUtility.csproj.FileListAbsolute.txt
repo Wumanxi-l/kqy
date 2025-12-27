@@ -1,0 +1,6 @@
+D:\大三第一学期\web何明\跨企业人事档案共享服务系统\mybook\mybook\MyUtility\bin\Debug\MyUtility.dll
+D:\大三第一学期\web何明\跨企业人事档案共享服务系统\mybook\mybook\MyUtility\bin\Debug\MyUtility.pdb
+D:\大三第一学期\web何明\跨企业人事档案共享服务系统\mybook\mybook\MyUtility\obj\Debug\MyUtility.csproj.AssemblyReference.cache
+D:\大三第一学期\web何明\跨企业人事档案共享服务系统\mybook\mybook\MyUtility\obj\Debug\MyUtility.csproj.CoreCompileInputs.cache
+D:\大三第一学期\web何明\跨企业人事档案共享服务系统\mybook\mybook\MyUtility\obj\Debug\MyUtility.dll
+D:\大三第一学期\web何明\跨企业人事档案共享服务系统\mybook\mybook\MyUtility\obj\Debug\MyUtility.pdb
